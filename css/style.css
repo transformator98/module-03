@@ -127,8 +127,7 @@ body {
 
 /* MAIN BUTTON START*/
 .btn {
-  width: 164px;
-  height: 60px;
+  padding: 20px 34px;
   border: solid 1px var(--grey-color);
   color: var(--grey-color);
   background-color: var(--white-color);
