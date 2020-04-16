@@ -32,13 +32,16 @@ body {
   display: inline-block;
 }
 
-
-.main-menu li:first-child {
+/* .main-menu li:first-child {
   padding-left: 165px;
 }
 
 .main-menu li:last-child {
   padding-right: 165px;
+} */
+
+ul.main-menu {
+  text-align: center;
 }
 
 .main-menu li:not(:last-child) {
@@ -70,7 +73,6 @@ body {
   width: 900px;
   margin: 0 auto;
   font-size: 0;
-
 }
 
 .list-item:nth-child(2n + 1) {
@@ -86,7 +88,6 @@ body {
   width: 420px;
   margin: 0 auto;
   vertical-align: top;
-
 }
 
 .imeges {
